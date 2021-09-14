@@ -26,7 +26,7 @@ const SimpsonsQuote = () => {
       ) : (
         quote && (
           <QuoteDisplay
-            quote={quote.quote}
+            quoteText={quote.quote}
             image={quote.image}
             character={quote.character}
           />
